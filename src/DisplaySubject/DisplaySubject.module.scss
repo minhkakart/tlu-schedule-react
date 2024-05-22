@@ -1,0 +1,33 @@
+
+.wrapper{
+    background-color: var(--background);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subject-name{
+    font-size: 2rem;
+    color: var(--primary);
+}
+.detail{
+    background-color: var(--back-primary);
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    .room,
+    .time,
+    .time-detail{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: var(--color-primary);
+        padding: 2px;
+        margin-bottom: 2px;
+    }
+}

@@ -1,0 +1,25 @@
+
+.nav{
+    font-size: 2rem;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    background-color: var(--back-primary);
+    min-height: calc(var(--default-header-height)/3);
+}
+
+.nav-link{
+    width: calc(100%/3);
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+
+    &.active{
+        color: var(--color-primary);
+        background-color: var(--primary);
+    }
+}

@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+    border-top: var(--default-header-height) solid var(--background);
+}
+
+.content{
+    border-top: 0;
+    height: fit-content;
+}

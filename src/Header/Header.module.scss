@@ -1,0 +1,21 @@
+.header{
+    position: fixed;
+    top: 0;
+    min-height: var(--default-header-height);
+    font-size: 2rem;
+    width: var(--default-width);
+    max-width: 100%;
+    flex-direction: column;
+    display: flex;justify-content: space-between;
+    background-color: var(--back-primary);
+
+    .title{
+        font-size: 4.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bolder;
+        padding: 14px;
+        color: #fffa1f;
+    }
+}
